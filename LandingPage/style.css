@@ -1,0 +1,257 @@
+
+
+.navbar {
+    background-color:rgb(146, 171, 240); 
+    padding:2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img {
+    max-height: 50px; 
+}
+.logo{
+    margin-right: 60%;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; 
+    text-align: right;
+}
+
+.navbar a:hover {
+    color:rgb(22, 22, 22)
+}
+
+.codePro{
+    width: 50%;
+}
+#home{
+    background-color: rgb(215, 248, 248);
+}
+.container{
+    display: flex;
+    
+}
+.content{
+    margin: 10%;
+}
+.content h2{
+    color: rgb(91, 132, 245);
+}
+
+button{
+    border: 2px solid black;
+    background-color: rgb(91, 132, 245);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    
+}
+button:hover{
+    background-color: rgb(165, 240, 240);
+    color:black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    font-weight: bolder;
+
+}
+button a{
+    text-decoration: none;
+}
+#about{
+    background-color:#e7c5c500;
+    
+}
+#about h2{
+    text-align: center;
+}
+#about span{ 
+    color: rgb(91, 132, 245);
+}
+.box{
+    margin:2vw;
+    /* border: 2px solid black; */
+    padding: 1vw;
+    text-align: center;
+    /* box-shadow: 2px 2px 2px black; */
+    /* border-radius: 20%; */
+}
+.box:hover{
+    background-color: rgb(206, 206, 236);
+}
+.box h3{
+    color:rgb(91, 132, 245);
+    text-align: center;
+}
+#platform{
+    /* background-color:rgb(204, 214, 241); */
+    background-color: rgb(215, 248, 248);
+
+}
+
+#platform .container{
+    display: flex;
+}
+.head{
+    text-align: center;
+    margin-top: 7vw;
+}
+.head h2{
+    color: rgb(91, 132, 245);
+    padding-top: 2vw;
+} 
+
+.card{
+    margin:2vw;
+    border: 2px solid black;
+    padding: 1vw;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5%;
+    width: 30%;
+}
+
+.card:hover{
+    background-color: rgb(206, 206, 236);
+}
+
+.card h3{
+    color: rgb(91, 132,245);
+}
+#contact{
+  margin-bottom: 2vw    
+}
+#contact h2{
+    text-align: center;
+    color: rgb(91, 132, 245)
+}
+form{
+    
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 5px solid rgb(18, 18, 19);
+    box-shadow: 20px 20px 20px rgb(15, 15, 15);
+}
+form input{
+    padding: 0.5vw;
+    margin: 1vw;
+    width: 25vw;
+}
+.signUp{
+    margin: 2vw;
+}
+footer h5{
+    text-align: center;
+    padding: 1.2vw;
+    margin: 1vw;
+}
+footer{
+    background-color:rgb(215, 248, 248) ;
+    height: 3vw;
+}
+.foot span{
+    color: rgb(91, 132, 245);
+}
+.navbar {
+    background-color: rgb(146, 171, 240);
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img {
+    max-height: 50px;
+}
+
+.logo {
+    margin-right: 10%; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; 
+    text-align: right;
+}
+
+.navbar a:hover {
+    color: rgb(22, 22, 22);
+}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+        margin-right: 20%; 
+    }
+    /* .codePro{
+        width: 10vw;
+    } */
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        margin: 0 auto; 
+    }
+
+    .logo {
+        margin-right: 30%; 
+    }
+
+    .content {
+        margin: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column; /* Stack navigation links vertically on smaller screens */
+        align-items: flex-start; /* Align navigation links to the left on smaller screens */
+    }
+    .codePro img{
+        width: 50vw;
+        height: 80%;
+        padding: auto;
+    }
+
+    .logo {
+        margin: 0; 
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .content {
+        margin: 5%; 
+    }
+
+    .card {
+        width: 100%; 
+    }
+}
+
+/* Add more responsive styles as needed */
+/* Add responsive styles for the 'About' section */
+@media only screen and (max-width: 600px) {
+    #about .container {
+        flex-direction: column; /* Stack boxes vertically on smaller screens */
+    }
+
+    .box {
+        width: 100%; /* Make boxes take full width on smaller screens */
+    }
+}
+
+/* Add responsive styles for the 'Platform' section */
+@media only screen and (max-width: 600px) {
+    #platform .container {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+
+    .card {
+        width: 90%; /* Make cards take full width on smaller screens */
+    }
+}

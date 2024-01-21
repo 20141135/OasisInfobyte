@@ -1,0 +1,161 @@
+#first{
+    background-color: rgb(213, 214, 218);
+    height: 30vw;
+    width:100%;
+    color:rgb(14, 13, 13);
+    padding:auto;
+    text-align: center;
+    padding-top: 20vw;
+    padding: 7vw 0 3vw 0;
+}
+#first img{
+    height:8vw;
+    width: 8vw;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 20px 20px rgba(206, 194, 221, 0.5); 
+
+}
+#second{
+    background-color: rgb(107, 104, 104);
+    height: 50vw;
+    /* width:100%; */
+    display: flex;
+}
+.thought{
+    margin: auto;
+    width:60%;
+    height:30%;
+    letter-spacing: .1px;
+    font-size:3vw;
+    color: rgb(213,214,218);
+}
+img{
+    height:25vw;
+    width: 25vw;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 20px 20px rgba(206, 194, 221, 0.5); 
+}
+
+#third {
+    background-color: rgb(213, 214, 218);
+    height: auto;
+    padding: 2vw 0  ; 
+}
+
+p{
+   font-size: medium;
+   font-weight: bolder;
+}
+.bio{
+    text-align: center;
+    padding: 2vw;
+}
+ .content{
+    letter-spacing: .1vw;
+    padding: 3vw 15vw 3vw 15vw;
+    text-align: center;
+ }
+ .content p{
+    font-size:1.5vw;
+}
+
+.footer {
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(107, 104, 104);
+    padding: 2vw 0;
+    margin: auto; 
+}
+
+
+h1,h2,h6{
+font-family: 'Croissant One', serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Open Sans', sans-serif;
+/* font-family: 'Pacifico', cursive; */
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Moonrocks', sans-serif;
+font-family: 'Skranji', system-ui;
+font-family: 'Yatra One', system-ui; 
+}
+
+
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+    #first {
+      height: auto;
+      padding-top: 15vw;
+    }
+  
+    #first img {
+      height: 15vw;
+      width: 15vw;
+    }
+  
+    #second {
+      flex-direction: column;
+      padding: 5vw;
+    }
+  
+    .thought {
+        padding: 5vw 0 0 5vw;
+      width: 100%;
+      font-size: 4vw;
+      height: auto;
+    }
+  
+    img {
+
+      height: 30vw;
+      width: 30vw;
+    }
+  
+    #third {
+      padding: 3vw;
+      height: auto;
+    }
+  
+    .content{
+      padding: 3vw;
+    }
+    .content p{
+        font-size: 4.5vw;
+    }
+  }
+  
+  /* Tablets and small desktops */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #first img {
+      height: 10vw;
+      width: 10vw;
+    }
+  
+    .thought {
+      font-size: 2vw;
+    }
+  
+    img {
+      height: 20vw;
+      width: 20vw;
+    }
+  
+    #third {
+      padding: 5vw;
+    }
+  
+    .content {
+      padding: 5vw;
+    }
+  }
+  
+
+
+
+
+
+
