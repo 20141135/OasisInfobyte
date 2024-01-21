@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="container">
+                <h1>Temperature Converter</h1>
+                <form id="temperatureForm">
+                     <div class="input">
+                        Input
+                        <input type="number" id="inputTemperature" required>
+                        
+                        Type
+                        <select name="fromType" id="fromType" required>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="degree">Degree</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+
+                        <br>
+                        <button type="button" onclick="convertTemp()">Convert</button>
+                    </div>
+
+                  
+
+                    <div class="output">
+                        <hr>
+                        Degree
+                        <input type="text" id="Degree" readonly>
+                        Fahrenheit
+                        <input type="text" id="Fahrenheit" readonly>
+                        Kelvin
+                        <input type="text" id="Kelvin" readonly>
+
+                        <br>
+
+                        <button type="button" onclick="clearInput()">OK</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
